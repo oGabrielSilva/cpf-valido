@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Henrique da Silva">
+    <meta name="description" content="Verifique se o cpf é válido.">
+    <meta name="copyright" content="©2021 Gabriel Henrique da Silva">
+    <link rel="shortcut icon" href="./assets/icon/logo.svg" type="image/x-icon">
+    <title>CPF</title>
+    <link rel="stylesheet" href="./assets/css/master.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <header>
+                <nav>
+                    <img draggable="false" class="logo" src="./assets/icon/logo0.svg" alt="Logo">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="mailto:g.h.silva.digital@gmail.com">Contato</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/oGabrielSilva">Dev</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <article>
+                <form>
+                    <h3 id="out">Digite o CPF</h3>
+                    <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14"
+                        title="CPF - Não precisa dos pontos e traços" required autocomplete="off">
+                    <div>
+                        <p>Não é necessário digitar o CPF com pontos e traço. </p>
+                        <p>Esse programa apenas verifica se o número digitado é válido,</p>
+                        <p>de acordo com o algoritmo da Receita Federal.</p>
+                    </div>
+                    <button>Verificar</button>
+                </form>
+                <p id="outResult"></p>
+            </article>
+            <footer>
+                <img draggable="false" class="logo" src="./assets/icon/logo0.svg" alt="Logo">
+                <p>
+                    &copy;Made by:
+                </p>
+                <p>Gabriel Henrique da Silva</p>
+                <p>—</p>
+                <p>May - 2021</p>
+                <p>—</p>
+                <a target="_blank" href="mailto:g.h.silva.digital@gmail.com" alt="E-mail>">E-mail</a>
+            </footer>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
