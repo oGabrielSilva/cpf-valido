@@ -12,6 +12,8 @@
     function verifyCpf(numCpf) {
         if(numCpf.length < 11) return danger()
         if(numCpf.length > 11 && numCpf.length < 14) return danger()
+        const aux = numCpf[0].repeat(numCpf.length)
+        if(aux === numCpf) return danger()
         cpf = new Cpf(numCpf)
         if(cpf.num.length !== 11) return danger()
         defineResult()
