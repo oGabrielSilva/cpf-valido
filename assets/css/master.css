@@ -35,7 +35,7 @@ a {
 }
 
 input {
-    background: var(--primary-color);
+    background: transparent;
     border-bottom: 2px solid var(--primary-color-dark);
     padding: .5em;
     text-align: right;
