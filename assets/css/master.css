@@ -103,6 +103,7 @@ article form button {
     padding: .5em 1em;
     font-size: 15px;
     cursor: pointer;
+    background: none;
 }
 
 article form button:hover {
