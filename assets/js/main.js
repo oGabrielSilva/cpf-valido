@@ -14,11 +14,12 @@
         if(numCpf.length > 11 && numCpf.length < 14) return danger()
         cpf = new Cpf(numCpf)
         if(cpf.num.length !== 11) return danger()
+        const aux = cpf.num[0].repeat(cpf.num.length)
+        if(aux === cpf.num) return danger()
         defineResult()
     }
     
     function defineResult() {
-        console.log(cpf.work)
         let num1 = 0
         let num2 = 0
         

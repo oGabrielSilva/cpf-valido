@@ -35,7 +35,7 @@ a {
 }
 
 input {
-    background: var(--primary-color);
+    background: transparent;
     border-bottom: 2px solid var(--primary-color-dark);
     padding: .5em;
     text-align: right;
@@ -72,7 +72,7 @@ header nav ul li {
 
 header nav ul li:hover {
     transition: .4s;
-    border-bottom: 5px solid #0c283d;
+    border-bottom: 5px solid #125486;
 }
 
 /* article */
@@ -103,6 +103,7 @@ article form button {
     padding: .5em 1em;
     font-size: 15px;
     cursor: pointer;
+    background: none;
 }
 
 article form button:hover {
